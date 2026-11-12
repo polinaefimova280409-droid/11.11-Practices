@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Забронировать ресурс</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="booking-modal">
+        <div class="modal-header">
+            <div>
+                <h1 class="modal-title">Забронировать ресурс</h1>
+                <p class="modal-subtitle">Уточните параметры и подтвердите бронирование.</p>
+            </div>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="form-row">
+            <div class="form-group flex-1">
+                <label class="form-label">Тип ресурса *</label>
+                <div class="select-box">
+                    <span>Аудитория</span>
+                    <span class="arrow">&#9662;</span>
+                </div>
+            </div>
+            <div class="form-group flex-2">
+                <label class="form-label">&nbsp;</label>
+                <div class="select-box">
+                    <span>Аудитория 304</span>
+                    <span class="arrow">&#9662;</span>
+                </div>
+                <span class="form-hint">&middot; 3 этаж &middot; До 30 человек &middot; Проектор, доска, Wi-Fi</span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group flex-2">
+                <label class="form-label">Дата *</label>
+                <div class="select-box">
+                    <span>16.11.2026</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+            <div class="form-group flex-1">
+                <label class="form-label">Начало *</label>
+                <div class="select-box">
+                    <span>10:00</span>
+                    <span class="arrow">&#9662;</span>
+                </div>
+            </div>
+            <div class="form-group flex-1">
+                <label class="form-label">Окончание *</label>
+                <div class="select-box">
+                    <span>11:30</span>
+                    <span class="arrow">&#9662;</span>
+                </div>
+            </div>
+        </div>
+        <div class="availability-badge">
+            Доступно &middot; 1 ч 30 мин &middot; Согласование не требуется
+        </div>
+        <div class="form-row">
+            <div class="form-group flex-3">
+                <label class="form-label">Цель бронирования *</label>
+                <div class="select-box">
+                    <span>Проектная работа</span>
+                    <span class="arrow">&#9662;</span>
+                </div>
+                <span class="form-hint">Для оборудования вместо участников указывается количество единиц.</span>
+            </div>
+            <div class="form-group flex-1">
+                <label class="form-label">Участников *</label>
+                <div class="select-box">
+                    <span>6</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Комментарий</label>
+            <textarea class="textarea-box" rows="3">Подготовка командного проекта по веб-разработке.</textarea>
+        </div>
+        <div class="applicant-info">
+            Заявитель: Алексей &middot; Студент &middot; Аккаунт колледжа
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" id="rules" checked>
+            <label for="rules">Я ознакомлен(а) с правилами использования ресурсов</label>
+        </div>
+
+        <div class="form-footer-note">
+            * Обязательные поля. Доступность проверяется при отправке.
+        </div>
+        <div class="modal-actions">
+            <button class="btn btn-cancel">Отмена</button>
+            <button class="btn btn-submit">Забронировать</button>
+        </div>
+        <div class="modal-bottom-note">
+            После подтверждения бронь появится в разделе «Мои брони».
+        </div>
+    </div>
+</body>
+</html>
