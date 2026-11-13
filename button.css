@@ -1,0 +1,48 @@
+.wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-block p {
+    font-size: 13px;
+    color: #a1a1aa;
+    align-self: flex-start;
+    margin: 0 0 0 5px;
+}
+
+.login-block .btn-primary {
+    background-color: #638cff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login-block .btn-primary:hover {
+    background-color: #4a7aff;
+}
+
+.login-block .btn-primary span {
+    font-weight: normal;
+    font-size: 16px;
+}
